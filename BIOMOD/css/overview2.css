@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+	width: 150px;
+	height:300px;
+	position: fixed;
+	left: 0;
+	top: 300px;
+	background-color: aqua;
+	text-align:center;
+	line-height: 5px;
+	border-radius: 0% 20% 20% 0%;
+}
+
+.biaoqian{
+	line-height: 30px;
+
+}

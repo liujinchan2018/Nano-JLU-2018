@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color:#FFFFFF;
+}
+
+
+
+.dianyong1{
+	font-size: 20px;
+	text-align: center;
+    position:absolute;
+	margin-top: 220px;
+	margin-left: 200px;
+    height: 0px;
+    width: 0px;
+    border-right: 70px solid transparent;
+    border-bottom: 120px solid #E7696B;
+	border-left:70px solid transparent;
+	
+}
+
+.quan{
+	position: absolute;
+	margin-top: 320px;
+	margin-left: 450px;
+	height: 50px;
+	width: 80px;
+	background-color: aqua;
+}
+
+.nangpao1{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 700px;
+	height: 150px;
+	width: 150px;
+	background-color: #F16163;
+	border-radius: 50%;
+}
+
+.nangpao2{
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 1000px;
+	height: 150px;
+	width: 150px;
+	background-color: #F16163;
+	border-radius: 50%;
+}
+
+.wenben{
+	position: absolute;
+	margin-top: 450px;
+	float: left;
+	background-color: aqua;
+	width: 900px;
+	height: 100px;
+}
+
+
+.dianyong2{
+	font-size: 20px;
+	text-align: center;
+    position:absolute;
+	margin-top: 580px;
+	margin-left: 200px;
+    height: 0px;
+    width: 0px;
+    border-top: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 120px solid #E7696B;
+	border-left:70px solid transparent;
+	
+}
+
+.quan2{
+	position: absolute;
+	margin-top: 630px;
+	margin-left: 450px;
+	height: 50px;
+	width: 80px;
+	background-color: aqua;
+}
+
+.nangpao3{
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 700px;
+	height: 150px;
+	width: 150px;
+	background-color: #F16163;
+	border-radius: 50%;
+}
+
+.nangpao4{
+	position: absolute;
+	margin-top: 610px;
+	margin-left: 1000px;
+	height: 150px;
+	width: 150px;
+	background-color: #F16163;
+	border-radius: 50%;
+}
+
+.jiantou1{
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 350px;
+	width: 350px;
+	height: 50px;
+	background:url(../images/jiantou1.jpg);
+	background-size:350px 50px;  
+	background-repeat:no-repeat;
+}
+
+.jiantou2{
+	position: absolute;
+	margin-top: 690px;
+	margin-left: 350px;
+	width: 350px;
+	height: 50px;
+	background:url(../images/jiantou2.jpg);
+	background-size:350px 50px;  
+	background-repeat:no-repeat;
+}
+
+.jiantou3{
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 880px;
+	width: 100px;
+	height: 50px;
+	background:url(../images/jiantou1.jpg);
+	background-size:100px 50px;  
+	background-repeat:no-repeat;
+}
+
+.jiantou4{
+	position: absolute;
+	margin-top: 690px;
+	margin-left:880px;
+	width: 100px;
+	height: 50px;
+	background:url(../images/jiantou2.jpg);
+	background-size:100px 50px;  
+	background-repeat:no-repeat;
