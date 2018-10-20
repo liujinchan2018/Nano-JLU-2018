@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>视频介绍列表模块</title>
+		
+        <link href="css3/style.css" rel="stylesheet" type="text/css"/>
+		
+        <script type="text/javascript" src="js/jquery3.js"></script>
+		<script type="text/javascript" src="js/layer/layer.js"></script>
+		
+    </head>
+    <body>
+
+            <!--
+
+			 * 17素材vip建站专区模块代码
+			 * 详尽信息请看官网：http://www.17sucai.com/pins/vip
+			 *
+			 * Copyright , 温州易站网络科技有限公司版权所有
+			 *
+			 * 请尊重原创，未经允许请勿转载。
+			 * 在保留版权的前提下可应用于个人或商业用途
+
+			-->
+
+        <!-- 调取视频区域 开始 -->
+        
+		<div class="video">
+			<div class="container">
+				<div class="index-title">
+					<h2>观看视频介绍</h2>
+					<a href="#">全部视频</a>
+				</div>
+				<div class="video-wrap">
+					<div class="vr-big">
+						<div class="inner" data-iframe='http://www.17sucai.com/'>
+							<img src="images3/large-001.jpg" alt="">
+							<i class="play"></i>
+							<div class="text">
+								<h3>新零售视频介绍</h3>
+								<p>通过视频介绍，你将更加深入了解什么是新零售</p>
+							</div>
+						</div>
+						<a href="#" class="link">了解详情</a>
+					</div>
+					<div class="vr-right">
+						<div class="vr-small">
+							<div class="inner" data-iframe='http://www.17sucai.com/'>
+								<img src="images3/large-002.jpg" alt="">
+								<i class="play"></i>
+								<span class="text">到家视频介绍</span>
+							</div>
+							<a href="#" class="link"></a>
+						</div>
+						<div class="vr-small">
+							<div class="inner" data-iframe='http://www.17sucai.com/'>
+								<img src="images3/large-003.jpg" alt="">
+								<i class="play"></i>
+								<span class="text">收银台视频介绍</span>
+							</div>
+							<a href="#" class="link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <script type="text/javascript">
+		$(".video").on("click",".inner",function(){
+			var $this = $(this);
+			var video = $this.attr("data-iframe");
+			layer.open({
+			  type: 2,
+			  title: false,
+			  closeBtn: 1, //不显示关闭按钮
+			  shade: 0.3,
+			  skin: 'layer-alert-video',
+			  area: ['900px', '563px'],
+			  anim: 0,
+			  content: [video, 'no'] //iframe的url，no代表不显示滚动条
+			});
+		});
+        </script>
+		
+    </body>
+</html>

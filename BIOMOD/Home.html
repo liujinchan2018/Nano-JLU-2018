@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/base.css" rel="stylesheet" type="text/css" />
+
+<!--必要样式-->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="jstopback/jquery.min.js"></script>
+<script type="text/javascript" src="jstopback/script.js"></script> 
+
+<link href="css/Labbook.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<link href="css3/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery3.js"></script>
+<script type="text/javascript" src="js/layer/layer.js"></script>
+	<!---------------视频浮窗-----------------!>
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<!-- Custom Theme files -->
+<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+<!----font-Awesome----->
+<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+<!----webfonts---->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body,td,th {
+	
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+	
+<style>
+	.top-nav
+	{
+		height: 130px;
+		width: 100%;
+	}
+	
+	.top-nav .contatct-active .scroll
+	{
+		position:absolute;
+		left:1100px;
+		margin-top: 50px;
+	}
+</style>
+<!----//webfonts---->
+<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+<meta charset="utf-8">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!--可无视-->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+
+<link rel="stylesheet" href="css/index.css"/>
+<script type="text/javascript">
+$(function(){
+	$(".first-menu > li").mouseover(function(){
+		$(this).find(".first-link").addClass("hover");
+		$(this).find(".second-menu").stop(true, false).fadeIn(300);
+	})
+	$(".first-menu > li").mouseout(function(){
+		$(this).find(".first-link").removeClass("hover");
+		$(this).find(".second-menu").stop(true, false).fadeOut(300);
+	})
+	$(".third-menu > li").mouseover(function(){
+		$(this).find(".third-link").addClass("hover");
+		$(this).find(".fourth-menu").stop(true, false).fadeIn(300);
+	})
+	$(".third-menu > li").mouseout(function(){
+		$(this).find(".third-link").removeClass("hover");
+		$(this).find(".fourth-menu").stop(true, false).fadeOut(300);
+	})
+})
+</script>
+</head>
+<body>
+	
+		 
+		<!----start-container---->
+			<!----start-header---->
+			 <section class="navbar custom-navbar navbar-fixed-top" role="navigation" style="box-shadow:5px 5px 5px black ;width: 100%;height: 170px;margin: auto;">
+          <div class="container" style="height: 130px;width: 1250px; margin-top: 0; margin:auto">
+               <div class="navbar-header">
+                 <div align="center">
+                   <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                     <span class="icon icon-bar"></span>
+                     <span class="icon icon-bar"></span>
+                     <span class="icon icon-bar"></span>
+                   </button>
+                   <!---- start-logo---->
+                 </div>
+                 
+                 <div class="logo"></div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                 <!---- //End-logo---->
+                   <!----start-top-nav---->
+                   <nav class="top-nav">
+                  <ul class="top-nav">
+                   <img src="images/QQ图片20180903204049.png" alt="logo" width="82" height="81" align="left">
+          
+					 
+					 <ul class="first-menu">
+					 	 <li>
+						 	<a href="team.html"><img src="images/Team.png" width="119" height="47" alt="team"></a>
+						 </li>
+					 </ul> 
+					   
+					  <ul class="first-menu">
+					 	 <li>
+						 	<a href="FP.html"><img src="images/future plan.png" width="119" height="47" alt="team"></a>
+						 </li>
+					 </ul> 
+					  
+					 <ul class="first-menu">
+                     	<li>
+							<a href="Result.html"><img src="images/Result.png" width="130" height="46" alt="Result"></a>
+						</li>
+                     </ul>
+					 
+					  <ul class="first-menu">
+                     	<li>
+							<a><img src="images/Experiment.png" width="136" height="46" alt="experiment"></a>
+						 	<ul class="second-menu">
+								<li>				
+									<a class="second-link"></a>
+										<ul class="third-menu">
+											<li>
+												<a href="overview.html" class="first-link"class="third-link">Overview</a>
+											</li>
+										</ul>
+										<ul class="third-menu">
+											<li>
+												<a href="labbook.html" class="first-link"class="third-link"class="third-link">Labbook</a>
+											</li>
+										</ul>
+										<ul class="third-menu">
+											<li>
+												<a href="M&M.html" class="first-link"class="third-link"class="third-link"class="third-link">Material & Method</a>
+											</li>
+										</ul>
+								</li>	
+							</ul>
+						</li>
+					 </ul>
+					   
+					 <ul class="first-menu">
+                     	<li>
+							<a href="Design.html"><img src="images/Design.png" width="107" height="45" alt="design"></a>
+						</li>
+					 </ul>
+					  
+					  
+					<ul class="first-menu">
+						<li>
+					 		<a  class="first-link" href="background.html"><img src="images/Background1.png" width="116" height="45" alt="background1"></a>
+					 	</li>
+					 </ul>
+					 
+					<ul class="first-menu">  
+					  <li class="active">
+						  <a href="Home.html"><img src="images/Home.png" width="101" height="44" alt="home"></a>
+					  </li>
+					</ul>
+					  
+                   </ul>
+                   <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+                 </div>
+                 </div>
+               </div>
+     </section> 
+                   
+			  
+<!----//End-top-nav---->
+			  	<div style="height: 170px;"></div>
+				 <div style="width: 1000px;height: 420px;margin: auto; background-color: #fff">
+			  		<img src="images/dongtu.gif" width="1000" height="420">
+			  	</div>
+		<div id="desi" class="work">
+			<div class="container" style="text-align:justify;">
+				<div class="head text-center work-head">
+                <div id="Abstract"></div>
+					<h3><span> </span>Abstract</h3>
+                    
+					<p class="text-justify">Recently, DNA-based nano biomaterials have been greatly developed and widely applied owing to their sequence programmability, accurate self-recognition and instinct biocompatibility. However, DNA self-assembled nanostructures, like DNA rotors, DNA polyhedras and DNA walkers, are mostly formed through hybridization of ssDNA, which might bring perturbation to some active molecules or enzymes because of the high temperature needed. Herein, we propose a substrate-free method to construct a covalently bonded two-dimensional DNA nanostructure at room temperature. AFM and TEM images demonstrate that DNA vesicles are successfully constructed with monodisperse properties and stability.
+
+ 
+
+Based on above, we modified the vesicle with biotin and i-motif respectively. Fluorescence microscopy indicates that the vesicle could be readily functionalized with streptavidin through biotin-avidin interaction when modified with biotin, and DLS results confirm that the vesicle could respond to pH changes when modified with i-motif.
+
+ 
+
+We believe these vesicles would have wide applications in many areas, especially drug delivery.
+
+ 
+
+ 
+
+</p>
+				</div>
+				<!---- start-work-grids-----><!---- //End-work-grids----->
+			</div>
+		</div>
+		<!---- start-work---->
+
+		<!---- //End-work---->
+		<!----start-portfolio----->
+		<div id="port" class="portfolio portfolio-box"><!----start-portfolio----></div>
+		<div class="clearfix"> </div>
+		<!----//End-portfolio----->
+        <div id="goals">
+        <div class="container">
+		  <div class="head text-center">
+			<h3><span> </span>Video</h3>
+			          <!-- 调取视频区域 开始 -->
+			  	<div class="video" style="margin: auto">
+					<div class="container">
+					<div class="index-title">
+					<h2>观看视频介绍</h2>
+					<a href="#">全部视频</a>
+					</div>
+					<div class="video-wrap">
+					<div class="vr-big">
+						<div class="inner" data-iframe='video.mp4'>
+							<img src="images3/large-001.jpg" alt="">
+							<i class="play"></i>
+							<div class="text">
+								<h3>新零售视频介绍</h3>
+								<p>通过视频介绍，你将更加深入了解什么是新零售</p>
+							</div>
+						</div>
+						<a href="#" class="link">了解详情</a>
+					</div>
+					</div>
+					</div>
+				</div>
+
+        <script type="text/javascript">
+		$(".video").on("click",".inner",function(){
+			var $this = $(this);
+			var video = $this.attr("data-iframe");
+			layer.open({
+			  type: 2,
+			  title: false,
+			  closeBtn: 1, //不显示关闭按钮
+			  shade: 0.3,
+			  skin: 'layer-alert-video',
+			  area: ['900px', '563px'],
+			  anim: 0,
+			  content: [video, 'no'] //iframe的url，no代表不显示滚动条
+			});
+		});
+        </script>
+		  </div>
+				<!---- start-features-grids---->
+		  <div class="features-grids text-center"></div>
+        </div>
+        <!----//End-blog---->
+		<!----start-test-monials---->
+		<div  id="contact" ></div>
+		<div class="clearfix">
+		  <div align="center">
+		    <div class="head text-center">
+		      
+	        </div>
+		  </div>
+		</div>
+			<!----//End-testmonial-time-line---->
+
+
+
+        
+		
+
+        <script type="text/javascript">
+		$(".video").on("click",".inner",function(){
+			var $this = $(this);
+			var video = $this.attr("data-iframe");
+			layer.open({
+			  type: 2,
+			  title: false,
+			  closeBtn: 1, //不显示关闭按钮
+			  shade: 0.3,
+			  skin: 'layer-alert-video',
+			  area: ['900px', '563px'],
+			  anim: 0,
+			  content: [video, 'no'] //iframe的url，no代表不显示滚动条
+			});
+		});
+        </script>
+<a href="#0" class="cd-top">Top</a>
+	
+</body>
+</html>
